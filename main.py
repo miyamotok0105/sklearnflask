@@ -104,7 +104,6 @@ if __name__ == '__main__':
         port = int(sys.argv[1])
     except Exception, e:
         port = 80
-
     try:
         clf = joblib.load(model_file_name)
         print 'model loaded'
@@ -116,5 +115,4 @@ if __name__ == '__main__':
         print 'Train first'
         print str(e)
         clf = None
-
     app.run(host='0.0.0.0', port=port, debug=True)
