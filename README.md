@@ -4,6 +4,7 @@ A simple Flask application that can serve predictions from a scikit-learn model.
 Read more in [this blog post](https://medium.com/@amirziai/a-flask-api-for-serving-scikit-learn-models-c8bcdaa41daa).
 
 ### Dependencies
+- python2 or python3
 - scikit-learn
 - Flask
 - pandas
