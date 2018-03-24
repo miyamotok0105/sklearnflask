@@ -14,6 +14,13 @@ Read more in [this blog post](https://medium.com/@amirziai/a-flask-api-for-servi
 pip install -r requirements.txt
 ```
 
+if remained trash process.
+
+```
+lsof -i -P | grep 9999
+kill hoge
+```
+
 ### Running API
 ```
 python main.py <port>
@@ -42,3 +49,5 @@ Trains the model. This is currently hard-coded to be a random forest model that 
 
 ### /wipe (GET)
 Removes the trained model.
+
+
